@@ -23,10 +23,10 @@ byteorder = "1.3.4"
 logging = { path = "../../pkg/logging" }
 slog = "2.5.2"
 slog-scope = "4.3.0"
-rand = "0.7.3"
-protobuf = "2.14.0"
+rand = "0.8.3"
+protobuf = "3.7.2"
 
-nix = "0.21.0"
+nix = "0.31.3"
 libc = "0.2.69"
 # XXX: Must be the same as the version used by the agent
 ttrpc = { version = "0.5.0" }
